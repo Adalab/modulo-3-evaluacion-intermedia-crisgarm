@@ -5,8 +5,11 @@ class Pokemon extends React.Component {
   constructor(props) {
     super(props);
   }
+
   render() {
-    console.log(this.props.pokemon);
+    const types = this.props.pokemon.types.map((type) => {
+      return <p>{type}</p>;
+    });
     return (
       <>
         <img
@@ -14,6 +17,7 @@ class Pokemon extends React.Component {
           alt={"Imagen de " + this.props.pokemon.name}
         />
         <h2>{this.props.pokemon.name}</h2>
+        <div>{types}</div>
       </>
     );
   }
