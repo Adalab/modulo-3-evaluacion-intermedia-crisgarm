@@ -7,8 +7,12 @@ class Pokemon extends React.Component {
   }
 
   render() {
-    const types = this.props.pokemon.types.map((type) => {
-      return <p className="list__items--text">{type}</p>;
+    const types = this.props.pokemon.types.map((type, index) => {
+      return (
+        <p key={index} className="list__items--text">
+          {type}
+        </p>
+      );
     });
     return (
       <>

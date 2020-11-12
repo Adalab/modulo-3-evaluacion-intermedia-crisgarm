@@ -13,13 +13,12 @@
 
 .main {
   height: 100vh;
-  padding-top: 20px;
 }
 .list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 0 250px;
+  padding: 20px 250px;
 }
 .list__items {
   border: 2px solid salmon;
