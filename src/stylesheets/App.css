@@ -28,9 +28,11 @@
   text-align: center;
   background-color: rgb(210, 235, 230);
 }
+
 .list__items--title {
   border-bottom: 2px solid salmon;
   border-top: 2px solid salmon;
+  text-transform: capitalize;
 }
 
 .list__items--container {
