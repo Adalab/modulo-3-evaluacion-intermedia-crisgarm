@@ -14,4 +14,5 @@ class PokeList extends React.Component {
     return <ul className="list">{listPokemons}</ul>;
   }
 }
+
 export default PokeList;

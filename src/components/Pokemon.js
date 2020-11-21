@@ -1,7 +1,7 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 class Pokemon extends React.Component {
-  // eslint-disable-next-line
   constructor(props) {
     super(props);
   }
@@ -28,4 +28,15 @@ class Pokemon extends React.Component {
   }
 }
 
+Pokemon.defaultProps = {
+  name: "Pokemon desconocido",
+  url: "../images/pokemon-bola.png",
+  types: "Tipo desconocido",
+};
+
+Pokemon.propTypes = {
+  name: PropTypes.string,
+  url: PropTypes.string,
+  types: PropTypes.array,
+};
 export default Pokemon;

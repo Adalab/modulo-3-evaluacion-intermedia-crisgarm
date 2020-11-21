@@ -4,16 +4,20 @@
   list-style: none;
   font-family: "Roboto", sans-serif;
 }
+#root {
+  background-image: url(../images/pokemons.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 100vh;
+}
 .header__title {
   text-align: center;
   padding: 30px;
-  background-color: rgb(192, 161, 161);
-  font-size: 28px;
+  font-size: 32px;
+  color: #474747;
 }
 
-.main {
-  height: 100vh;
-}
 .list {
   display: flex;
   flex-wrap: wrap;
@@ -26,7 +30,7 @@
   width: 150px;
   margin: 10px;
   text-align: center;
-  background-color: rgb(210, 235, 230);
+  background-color: rgb(248, 244, 247);
 }
 
 .list__items--title {
@@ -42,7 +46,7 @@
 }
 
 .list__items--text {
-  background-color: grey;
+  background-color: #474747;
   border-radius: 5px;
   padding: 3px;
   font-size: 12px;
