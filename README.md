@@ -3,7 +3,7 @@
 Este es el ejercicio de la **evaluación intermedia del módulo 03 de Adalab**. El ejercicio consiste en desarrollar una página web sencilla con **React**. La web consiste en un listado de pokemon, con una tarjeta para cada uno con información relevante como el nombre, el tipo y una imagen. La información de los pokemon la obtenemos de un array de datos guardado en un fichero json que incluimos en el estado del componente principal.
 
 ## Demo
-Para ver el resultado de la aplicación puedes visitar el siguiente enlace: https://beta.adalab.es/modulo-3-evaluacion-final-crisgarm/.
+Para ver el resultado de la aplicación puedes visitar el siguiente enlace: https://beta.adalab.es/modulo-3-evaluacion-intermedia-crisgarm/.
 
 ## Desarrollo
 
